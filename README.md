@@ -1,4 +1,4 @@
-# Live Object Detection using YOLOv5 and OpenCV 🎯
+# Vision-Assist 🎯
 
 This project demonstrates real-time object detection using the YOLOv5 model and OpenCV via a webcam feed. It identifies multiple objects in live video streams and draws bounding boxes with class labels and confidence scores.
 
@@ -8,6 +8,8 @@ This project demonstrates real-time object detection using the YOLOv5 model and 
 -  Uses a pre-trained YOLOv5 model (`yolov5s.pt`) for detection
 -  Detects 80 object classes from the COCO dataset
 -  Draws bounding boxes with class names and confidence
+-  TTS is used to describe objects
+-  Thermal depth verification
 -  Built with Python, OpenCV, and PyTorch
 
 ## Technologies Used
